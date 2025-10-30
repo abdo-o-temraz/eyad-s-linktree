@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eyad's Linktree</title>
+  <meta name="description" content="Connect with Eyad through social links." />
+
+  <!-- Open Graph Meta -->
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <meta name="theme-color" content="#fafafa" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- Animated Background -->
+<div class="finisher-header"></div>
+
+<!-- Content -->
+<div class="content">
+  <div class="parent">
+    <img class="MyImage" src="SVG/WhatsApp Image 2025-10-30 at 14.01.44_d4d4919f.jpg" alt="Portrait of Eyad Temraz" loading="lazy" />
+  </div>
+  <h1 class="welcome">Honored to connect with you</h1>
+  <h3 class="sub">Here are my links 👇</h3>
+
+  <div class="container">
+    <button class="Linkedin" aria-label="LinkedIn" onclick="window.open('https://www.linkedin.com/in/eyad-ahmed-khalaf?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', '_blank', 'noopener,noreferrer')">
+      <img class="icon" src="SVG/icons8-linkedin-48.svg" alt="LinkedIn" loading="lazy" />
+    </button>
+    <button class="Instagram" aria-label="Instagram" onclick="window.open('https://www.instagram.com/xx_eyad_ahmed_x?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank', 'noopener,noreferrer')">
+      <img class="icon" src="SVG/Instagram_Glyph_Gradient.svg" alt="Instagram" loading="lazy" />
+    </button>
+    <button class="Facebook" aria-label="Facebook" onclick="window.open('https://www.facebook.com/eyad.ahmed.855956', '_blank', 'noopener,noreferrer')">
+      <img class="icon" src="SVG/Facebook_Logo_Primary.svg" alt="Facebook" loading="lazy" />
+    </button>
+    <button class="Github" aria-label="GitHub" onclick="window.open('https://www.github.com/abdo-o-temraz', '_blank', 'noopener,noreferrer')">
+      <img class="icon" src="SVG/github-mark.svg" alt="GitHub" loading="lazy" />
+    </button>
+  </div>
+</div>
+
+<!-- FinisherHeader Script -->
+<script src="js/finisher-header.es5.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new FinisherHeader({
+      count: 90,
+      size: { min: 1, max: 18, pulse: 0.3 },
+      speed: {
+        x: { min: 0.1, max: 0.3 },
+        y: { min: 0.3, max: 0.6 }
+      },
+      colors: {
+        background: "#000000",
+        particles: ["#000000", "#15b3f0", "#625eff", "#07cc98", "#e11fee"]
+      },
+      blending: "screen",
+      opacity: { center: 0.15, edge: 0.5 },
+      skew: 0,
+      shapes: ["t", "s"]
+    });
+  });
+</script>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Eyad Temraz. All rights reserved.</p>
+</footer>
+</body>
+</html>
